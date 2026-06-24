@@ -88,3 +88,30 @@ public class Main{
 }
 
 
+// item 4 Celsius to Fahrenheit II
+
+import java.util.Scanner;
+public class Main{
+    public static void convertTemperature(){
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.print("Enter the temperature in Celsius: ");
+        double Celcius = sc.nextDouble();
+        
+        
+       double Fah = (Celcius * 9/5) + 32;
+       
+       System.out.printf("Temperature in Fahrenheit: %.2f" , Fah);
+    }
+    
+    public static void main(String[] args){
+       
+        
+        convertTemperature();
+       
+        
+        
+    }
+}
+
+
