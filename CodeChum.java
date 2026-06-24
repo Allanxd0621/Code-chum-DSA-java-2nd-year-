@@ -114,4 +114,27 @@ public class Main{
     }
 }
 
+//item 5 Matchstick House Builder
+
+import java.util.Scanner;
+
+public class Main{
+    public static void getMatchSticksNeeded(){
+        Scanner sc = new Scanner(System.in);
+        
+        
+        System.out.print("Enter the number of houses to make: ");
+        int numhaws = sc.nextInt();
+        
+        int posporo = (numhaws * 5) + 1;
+        
+        System.out.print("Number of matchsticks needed: " + posporo);
+        
+    }
+    
+    public static void main(String[] args){
+        getMatchSticksNeeded();
+    }
+}
+
 
